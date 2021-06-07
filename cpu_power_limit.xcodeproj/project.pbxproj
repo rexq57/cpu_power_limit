@@ -7,16 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2114DD8E23430CAC00025B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2114DD8D23430CAC00025B03 /* main.m */; };
+		21E2C27023423685003D93DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2C26F23423685003D93DF /* AppDelegate.m */; };
+		21E2C27323423685003D93DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2C27223423685003D93DF /* ViewController.m */; };
+		21E2C27523423686003D93DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E2C27423423686003D93DF /* Assets.xcassets */; };
+		21E2C27823423686003D93DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E2C27623423686003D93DF /* Main.storyboard */; };
+		21E2C27B23423686003D93DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E2C27A23423686003D93DF /* main.m */; };
 		E703284A1C3270C600E8A95F /* cpu_power_limit.c in Sources */ = {isa = PBXBuildFile; fileRef = E70328491C3270C600E8A95F /* cpu_power_limit.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2114DD8923430CAB00025B03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2114DD8B23430CAB00025B03 /* CpuPowerSettingsCMD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CpuPowerSettingsCMD; sourceTree = BUILT_PRODUCTS_DIR; };
+		2114DD8D23430CAC00025B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21E2C26C23423685003D93DF /* CpuPowerSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CpuPowerSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E2C26E23423685003D93DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21E2C26F23423685003D93DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21E2C27123423685003D93DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21E2C27223423685003D93DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21E2C27423423686003D93DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21E2C27723423686003D93DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21E2C27923423686003D93DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E2C27A23423686003D93DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21E2C27C23423686003D93DF /* CpuPowerSettings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CpuPowerSettings.entitlements; sourceTree = "<group>"; };
 		E70328461C3270C600E8A95F /* cpu_power_limit.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpu_power_limit.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70328491C3270C600E8A95F /* cpu_power_limit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cpu_power_limit.c; sourceTree = "<group>"; };
 		E703284B1C3270C600E8A95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2114DD8823430CAB00025B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E2C26923423685003D93DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E70328421C3270C600E8A95F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,10 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2114DD8C23430CAC00025B03 /* CpuPowerSettingsCMD */ = {
+			isa = PBXGroup;
+			children = (
+				2114DD8D23430CAC00025B03 /* main.m */,
+			);
+			path = CpuPowerSettingsCMD;
+			sourceTree = "<group>";
+		};
+		21E2C26D23423685003D93DF /* CpuPowerSettings */ = {
+			isa = PBXGroup;
+			children = (
+				21E2C26E23423685003D93DF /* AppDelegate.h */,
+				21E2C26F23423685003D93DF /* AppDelegate.m */,
+				21E2C27123423685003D93DF /* ViewController.h */,
+				21E2C27223423685003D93DF /* ViewController.m */,
+				21E2C27423423686003D93DF /* Assets.xcassets */,
+				21E2C27623423686003D93DF /* Main.storyboard */,
+				21E2C27923423686003D93DF /* Info.plist */,
+				21E2C27A23423686003D93DF /* main.m */,
+				21E2C27C23423686003D93DF /* CpuPowerSettings.entitlements */,
+			);
+			path = CpuPowerSettings;
+			sourceTree = "<group>";
+		};
 		E703283C1C3270C600E8A95F = {
 			isa = PBXGroup;
 			children = (
 				E70328481C3270C600E8A95F /* cpu_power_limit */,
+				21E2C26D23423685003D93DF /* CpuPowerSettings */,
+				2114DD8C23430CAC00025B03 /* CpuPowerSettingsCMD */,
 				E70328471C3270C600E8A95F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				E70328461C3270C600E8A95F /* cpu_power_limit.kext */,
+				21E2C26C23423685003D93DF /* CpuPowerSettings.app */,
+				2114DD8B23430CAB00025B03 /* CpuPowerSettingsCMD */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +137,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2114DD8A23430CAB00025B03 /* CpuPowerSettingsCMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2114DD9123430CAC00025B03 /* Build configuration list for PBXNativeTarget "CpuPowerSettingsCMD" */;
+			buildPhases = (
+				2114DD8723430CAB00025B03 /* Sources */,
+				2114DD8823430CAB00025B03 /* Frameworks */,
+				2114DD8923430CAB00025B03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CpuPowerSettingsCMD;
+			productName = CpuPowerSettingsCMD;
+			productReference = 2114DD8B23430CAB00025B03 /* CpuPowerSettingsCMD */;
+			productType = "com.apple.product-type.tool";
+		};
+		21E2C26B23423685003D93DF /* CpuPowerSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E2C27F23423686003D93DF /* Build configuration list for PBXNativeTarget "CpuPowerSettings" */;
+			buildPhases = (
+				21E2C26823423685003D93DF /* Sources */,
+				21E2C26923423685003D93DF /* Frameworks */,
+				21E2C26A23423685003D93DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CpuPowerSettings;
+			productName = CpuPowerSettings;
+			productReference = 21E2C26C23423685003D93DF /* CpuPowerSettings.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E70328451C3270C600E8A95F /* cpu_power_limit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E703284E1C3270C600E8A95F /* Build configuration list for PBXNativeTarget "cpu_power_limit" */;
@@ -92,9 +198,20 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Erriy;
 				TargetAttributes = {
+					2114DD8A23430CAB00025B03 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 4J56772K58;
+						ProvisioningStyle = Automatic;
+					};
+					21E2C26B23423685003D93DF = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 4J56772K58;
+						ProvisioningStyle = Automatic;
+					};
 					E70328451C3270C600E8A95F = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = TV74J6VJUR;
+						DevelopmentTeam = 4J56772K58;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -103,7 +220,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = E703283C1C3270C600E8A95F;
 			productRefGroup = E70328471C3270C600E8A95F /* Products */;
@@ -111,11 +230,22 @@
 			projectRoot = "";
 			targets = (
 				E70328451C3270C600E8A95F /* cpu_power_limit */,
+				21E2C26B23423685003D93DF /* CpuPowerSettings */,
+				2114DD8A23430CAB00025B03 /* CpuPowerSettingsCMD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		21E2C26A23423685003D93DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E2C27523423686003D93DF /* Assets.xcassets in Resources */,
+				21E2C27823423686003D93DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E70328441C3270C600E8A95F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +256,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2114DD8723430CAB00025B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2114DD8E23430CAC00025B03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E2C26823423685003D93DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E2C27323423685003D93DF /* ViewController.m in Sources */,
+				21E2C27B23423686003D93DF /* main.m in Sources */,
+				21E2C27023423685003D93DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E70328411C3270C600E8A95F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,7 +284,148 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		21E2C27623423686003D93DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21E2C27723423686003D93DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2114DD8F23430CAC00025B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J56772K58;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2114DD9023430CAC00025B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J56772K58;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21E2C27D23423686003D93DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = CpuPowerSettings/CpuPowerSettings.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J56772K58;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CpuPowerSettings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzbbj.CpuPowerSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21E2C27E23423686003D93DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = CpuPowerSettings/CpuPowerSettings.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J56772K58;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CpuPowerSettings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzbbj.CpuPowerSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E703284C1C3270C600E8A95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -219,16 +508,19 @@
 		E703284F1C3270C600E8A95F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J56772K58;
 				INFOPLIST_FILE = cpu_power_limit/Info.plist;
 				MODULE_NAME = inc_ebp.cpu_power_limit;
 				MODULE_START = cpu_power_limit_start;
 				MODULE_STOP = cpu_power_limit_stop;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = "inc-ebp.cpu-power-limit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wzbbj.cpu-power-limit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -236,16 +528,19 @@
 		E70328501C3270C600E8A95F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J56772K58;
 				INFOPLIST_FILE = cpu_power_limit/Info.plist;
 				MODULE_NAME = inc_ebp.cpu_power_limit;
 				MODULE_START = cpu_power_limit_start;
 				MODULE_STOP = cpu_power_limit_stop;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = "inc-ebp.cpu-power-limit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wzbbj.cpu-power-limit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -253,6 +548,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2114DD9123430CAC00025B03 /* Build configuration list for PBXNativeTarget "CpuPowerSettingsCMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2114DD8F23430CAC00025B03 /* Debug */,
+				2114DD9023430CAC00025B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E2C27F23423686003D93DF /* Build configuration list for PBXNativeTarget "CpuPowerSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E2C27D23423686003D93DF /* Debug */,
+				21E2C27E23423686003D93DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E70328401C3270C600E8A95F /* Build configuration list for PBXProject "cpu_power_limit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
